@@ -121,8 +121,8 @@ public class Recursion {
        //removeDuplicates(s,1,s.charAt(0)+"");
        //String s="raxmexsxhx";
        //moveXToLast(s,0,0,"");
-       String s="abc";
-       subSequence(s,0,"");
+       //String s="abc";
+       //subSequence(s,0,"");
        //String s="abc";
        //String per="";
        //permutationsOnStrings( s, per);
