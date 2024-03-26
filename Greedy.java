@@ -166,9 +166,9 @@ public class Greedy {
       // int[] schedule={1,1,2,2,1};
        //int[] profitarr={15,19,100,27,25};
        //jobSequence(schedule,profitarr);
-       int[] vertical={2,1,3,1,4};
-       int[] horizontal={4,1,4};
-       squareCutting(horizontal,vertical);
+      // int[] vertical={2,1,3,1,4};
+      // int[] horizontal={4,1,4};
+      // squareCutting(horizontal,vertical);
        }
     
 }
