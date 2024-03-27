@@ -36,7 +36,7 @@ public class Greedy {
             }
             Arrays.sort(a,Comparator.comparingDouble(o->o[2]));
              for(int i=a.length-1;i>=0;i--){
-                if(totalwegt>a[i][0]){
+                if(totalwegt>=a[i][0]){
                     totalprofit+=a[i][1];
                     totalwegt-=a[i][0];
 
