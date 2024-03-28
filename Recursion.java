@@ -110,6 +110,26 @@ public class Recursion {
             }
         }
     }
+    public static void combination(int i,int target,int[] arr,List<List<Integer>> ans,ArrayList<Integer> al){
+        if(i==arr.length){
+            if(target==0){
+                ans.add(new ArrayList<>(al));
+            }
+            return;
+        }
+            if(target>=arr[i]){
+                al.add(arr[i]);
+                combination(i,target-arr[i],arr,ans,al);
+                al.remove(al.size()-1);
+            }
+            combination(i+1,target,arr,ans,al);
+        }
+    public  static List<List<Integer>> combinationSum(int[] candidates, int target) {
+        List<List<Integer>> ans=new ArrayList<>();
+        combination(0,target,candidates,ans, new  ArrayList<>());
+        return ans;
+        
+    }
     public static void main(String[] args){
        // print1to5(1,5);
         //print5to1(1,5);
@@ -130,6 +150,9 @@ public class Recursion {
        //ArrayList<Integer> al=new ArrayList<>();
        //boolean[] b=new boolean[a.length];
        //permutationsOnArray(a,al,b);
+        // int[] candidates={2,3,6,7};
+       //int target=7;
+       //System.out.println(combinationSum(candidates,target));
 
         }
 }
