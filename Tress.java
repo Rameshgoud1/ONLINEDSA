@@ -197,29 +197,10 @@ public class Tress {
        //inorderIterative();
        //preorderIterative();
        //System.out.print(postorderTraversal(root));
-       Node subRoot=new Node(3);
-       subRoot.left=new Node(6);
-       subRoot.right=new Node(7);
-       System.out.println(isSubtree(root,subRoot));
+       //Node subRoot=new Node(3);
+       //subRoot.left=new Node(6);
+       //subRoot.right=new Node(7);
+      // System.out.println(isSubtree(root,subRoot));
     }
-    
 }
-//public List<Integer> inorderTraversal(TreeNode root) {
- //   Stack<TreeNode> st=new Stack<>();
-   // List<Integer> al=new ArrayList<>();
-    //TreeNode curr=root;
-   //while(true){
-    //if(curr!=null){
-      //  st.push(curr);
-        //curr=curr.left;
-    //}
-    //else{
-      //  if(st.isEmpty()) break;
-        //curr=st.pop();
-        //al.add(curr.val);
-        //curr=curr.right;
-    //}
-   //}
-   //return al;
-   //}
     
